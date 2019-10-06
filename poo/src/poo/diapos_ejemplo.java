@@ -7,7 +7,9 @@ public class diapos_ejemplo {
 	
 	public static void main(String[] args) throws IOException {
 	if (args.length <= 0) {
-	System.err.println("Se necesita un programa a ejecutar");
+	System.err.println("Se necesita un programa a ejecutar que no esté activo");
+	
+	
 	System.exit(-1);
 	}
 	ProcessBuilder pb = new ProcessBuilder(args);
