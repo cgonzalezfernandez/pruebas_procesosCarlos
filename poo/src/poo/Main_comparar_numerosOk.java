@@ -13,7 +13,7 @@ public class Main_comparar_numerosOk {
 			 int num;
 			 // n es el número que hay que acertar
 			 // num guarda los números introducidos
-			 System.out.print("Introduce N: ");
+			 System.out.print("Introduce N.....................: ");
 			 
 			 String entradaTeclado = "";
 			 Scanner entradaEscaner = new Scanner (System.in); //Creación de un objeto Scanner
